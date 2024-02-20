@@ -1,0 +1,108 @@
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(172, 200, 175, 0.625);
+}
+
+.game-front
+{
+    background-color: rgb(0, 110, 44);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 350px;
+    width: 600px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 30px rgb(0, 0, 0);
+}
+
+.game-front .fr
+{
+    width: 120%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.game-front .fr ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.game-front .fr .int
+{
+    font-size: 100%;
+    font-family: "Kode Mono", monospace;
+    border: none;
+    padding: 10px;
+    background-color:rgb(232, 239, 36) ;
+    border-radius: 10px;
+}
+.game-front .fr .emp
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: auto;
+    font-weight: bold;
+    font-family: "Anta", sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+.game-front .but
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 20%;
+}
+.game-front .but .int-start
+{
+    border-style: solid;
+    border-color: rgb(246, 248, 186);
+    border-width: 1px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    transition: 0.5s;
+}
+
+.game-front .but .int-start:hover
+{
+    cursor: pointer;
+    border-color: yellow;
+    color:yellow;
+}
+
+.game-front .but .int-quit
+{
+    border-style: solid;
+    border-color: rgb(246, 248, 186);
+    border-width: 1px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    transition: 0.5s;
+}
+
+.game-front .but .int-quit:hover
+{
+    cursor: pointer;
+    border-color: yellow;
+    color:yellow;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            background-color: red;
+            width: fit-content;
+            height:30px;
+            max-height: 50px;
+            overflow: hidden;
+            padding: 5px 10px 0px 0px ;
+            transition: width 1s;
+        } 
+      /* .container:hover
+        {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            color: white;
+            padding: 10px; 
+            width: fit-content;
+            border-style: solid;
+            border-color: black;
+            border-width: 1px;
+            background-color: rgb(255, 21, 0);
+            height:1100px;
+            max-height: unset;
+            height: fit-content;
+            overflow: unset;
+        } * */
+    </style>
+</head>
+<body>
+  
+
+    <div class="container" onmousedown="mo()" onmouseleave="lv()">
+        Menu
+    <div id="menu">
+        <li> test</li> 
+        <li> test</li> 
+        <li> test</li> 
+        <li> test</li> 
+        <li> test</li> 
+    </div>
+
+    </div>
+    <script>
+
+        let con = document.getElementsByClassName('container')[0];
+        let menu = document.getElementById('menu');
+        console.log(con);
+       function lv ()
+       {
+        menu.style.display = 'flex';
+        // con.style= `background-color: red;
+        //     width: fit-content;
+        //     height:30px;
+        //     max-height: 50px;
+        //     overflow: hidden;
+        //     padding: 5px 10px 0px 0px ;
+        //     transition: width 1s;`;
+       }
+        function mo()
+        {
+            menu.style.display = 'none';
+            // con.style =  ` display: flex;
+            // flex-direction: column;
+            // flex-wrap: wrap;
+            // align-items: flex-start;
+            // color: white;
+            // padding: 10px; 
+            // width: fit-content;
+            // border-style: solid;
+            // border-color: black;
+            // border-width: 1px;
+            // background-color: rgb(255, 21, 0);
+            // height:1100px;
+            // max-height: unset;
+            // height: fit-content;
+            // overflow: unset;"
+            // console.log("move")`;
+        }
+      
+        </script>
+
+</body>
+</html>

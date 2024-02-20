@@ -1,0 +1,41 @@
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+}
+.flex .flex-box-one
+{
+
+    margin: 0px;
+    min-height: 100px;
+    width: 200px;
+    flex-grow: 1;
+    margin: 10px;
+    align-self: flex-end;
+    border: 3px solid rgb(0, 0, 0);
+    min-height: 200px;
+    background-color: rgb(255, 0, 0);
+}
+.flex .flex-box-two
+{
+    min-height: 200px;
+    width: 200px;
+    margin: 10px;
+    flex-grow: 2;
+    border: 3px solid rgb(0, 0, 0);
+    min-height: 200px;
+    background-color: rgb(146, 247, 123);
+}
+.flex .flex-box-tree
+{
+    min-height: 300px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    min-height: 200px;
+    background-color: rgb(135, 135, 135);
+}

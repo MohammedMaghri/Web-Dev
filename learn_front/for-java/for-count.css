@@ -1,0 +1,246 @@
+body
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    gap: 20px;
+}
+.count 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0px 2px 20px rgb(184, 184, 184);
+}
+
+.count .ul 
+{
+    padding: 10px;
+}
+.count .forn
+{
+    display: flex;
+    justify-content: center;
+}  
+.count .buttons
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.count .buttons .sub
+{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 194, 255);
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.count .buttons .sub:hover
+{
+    color: rgb(61, 194, 255);
+    border-style: solid;
+    border-color: rgb(61, 194, 255);
+    border-width: 1px;
+    background-color: white;
+}
+.count .buttons .save
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(61, 194, 255);
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.count .buttons .save:hover
+{
+    color: rgb(61, 194, 255);
+    border-style: solid;
+    border-color: rgb(61, 194, 255);
+    border-width: 1px;
+    background-color: white;
+}
+.count .buttons .member
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(61, 194, 255);
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.count .buttons .member:hover
+{
+    color: rgb(61, 194, 255);
+    border-style: solid;
+    border-color: rgb(61, 194, 255);
+    border-width: 1px;
+    background-color: white;
+}
+.count .num
+{
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.count  .fortxt
+{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.count .fortxt ul
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.calc
+{
+    box-shadow: 0px 5px 20px rgb(195, 111, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    border-style: solid;
+    flex-direction: column;
+    border-color: rgb(182, 79, 255);
+    border-width: 2px;
+}
+.calc .for_inp input
+{
+    padding: 10px;
+    outline: none;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(158, 158, 158);
+    border-radius: 10px;
+}
+.calc .for_inp input::placeholder
+{
+    font-weight: bold;
+    color: rgb(196, 196, 196);
+}
+.calc .for_inp
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 20px;
+    padding: 10px;
+
+}
+.calc .bot_inp .add 
+{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: white;
+    font-weight: bold;
+    color: rgb(239, 61, 255);
+    border-style: solid;
+    border-width: 1.5px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.calc .bot_inp .add:hover
+{
+    cursor: pointer;
+    background-color:  rgb(242, 132, 252);
+    color: white;
+}
+
+.calc .bot_inp .sub 
+{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: white;
+    font-weight: bold;
+    color: rgb(239, 61, 255);
+    border-style: solid;
+    border-width: 1.5px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.calc .bot_inp .sub:hover
+{
+    cursor: pointer;
+    background-color:  rgb(242, 132, 252);
+    color: white;
+}
+
+.bot_inp button
+{
+    margin: 0px;
+    padding: 0px;
+    width: 45%;
+    padding: 10px;
+}
+
+.bot_inp 
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.out 
+{
+    display:  flex;   
+    flex-direction: column;
+    margin: 10px;
+    border: none;
+}
+.out h2
+{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.out ul 
+{
+    margin: 0px ;
+    padding: 0px ;
+}
+.out .th_tex
+{
+    font-weight: bold;
+    color: rgb(234, 0, 255) ;
+    display: flex;
+    justify-content: center;
+}
+.out .chg
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    border-radius: 50px;
+}

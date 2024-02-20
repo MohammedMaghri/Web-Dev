@@ -1,0 +1,133 @@
+body
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.container 
+{
+    background-color: rgb(47, 48, 50);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-style: solid;
+    border-color: rgb(73, 73, 73);
+    border-width: 1px;
+    margin: 0px;
+}
+.container .forall 
+{
+    color: rgb(179, 174, 174);
+    font-family: "Montserrat", sans-serif;
+    font-size:medium;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    width: 330px;
+    border-width: 2px;
+    gap: 30px;
+}
+.container .forall .h
+{
+    cursor: pointer;
+    transition: color 0.5s;
+    transition: font-size 0.5s;
+}
+.container .forall .h:hover 
+{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.container .forall .A
+{                               2
+    cursor: pointer;
+    transition: color 0.5s;
+    transition: font-size 0.5s;
+}
+.container .forall .A:hover 
+{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.container .forall .L
+{
+    cursor: pointer;
+    transition: color 0.5s;
+    transition: font-size 0.5s;
+}
+.container .forall .L:hover 
+{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.container .forall .S
+{
+    cursor: pointer;
+    transition: color 0.5s;
+    transition: font-size 0.5s;
+}
+.container .forall .S:hover 
+{
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.container .forall ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container .forsec
+{
+    display: flex;
+    gap: 10px;
+    border-width: 1px;
+}
+.container .forsec input
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 24);
+    border: none;
+    border-style: solid;
+    outline: none;
+    border-width: 0.1px;
+    border-color: rgb(174, 174, 174);
+}
+.container .forsec input::placeholder
+{
+    color: rgb(144, 141, 141);
+    font-style: bold;
+}
+.container .forsec button
+{
+    cursor: pointer;
+    color: rgb(48, 110, 48);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 6px;
+    background-color:  rgb(47, 48, 50);
+    border: none;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    transition: border-color 0.5s;
+    transition:  background-color 1s;
+}
+.container .forsec button:hover
+{
+    color: white;
+    background-color: rgb(48, 110, 48) ;
+    border-color: rgb(48, 110, 48) ;
+}
