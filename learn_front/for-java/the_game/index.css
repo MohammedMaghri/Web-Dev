@@ -10,7 +10,7 @@ body
 
 .game-front
 {
-    background-color: rgb(0, 110, 44);
+    background-color: rgb(9, 157, 68);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -59,50 +59,50 @@ body
     color: rgb(255, 255, 255);
     margin: 20px;
 }
+
 .game-front .but
 {
+    width: 50%;
     display: flex;
-    align-items: center;
+    justify-content: center;
     justify-content: space-around;
-    width: 90%;
-    height: 20%;
+    gap :10px;
 }
-.game-front .but .int-start
+.game-front .but  .int-start button
 {
+    font-weight: bold;
     border-style: solid;
-    border-color: rgb(246, 248, 186);
-    border-width: 1px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-family: "Kode Mono", monospace;
+    border-color:rgb(232, 239, 36) ;
+    background-color: transparent;
+    color: rgb(232, 239, 36);
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 140%;
     transition: 0.5s;
 }
-
-.game-front .but .int-start:hover
+.game-front .but  .int-start button:hover
 {
+    background-color: rgb(208, 208, 208);
+    color: rgb(0, 0, 0);
+    border-color: white;
     cursor: pointer;
-    border-color: yellow;
-    color:yellow;
 }
-
-.game-front .but .int-quit
+.game-front .but  .int-quit button
 {
+    font-weight: bold;
     border-style: solid;
-    border-color: rgb(246, 248, 186);
-    border-width: 1px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-family: "Kode Mono", monospace;
+    border-color:rgb(232, 239, 36) ;
+    background-color: transparent;
+    color: rgb(232, 239, 36);
+    height: 140%;
+    padding-left: 60px;
+    padding-right: 60px;
     transition: 0.5s;
 }
-
-.game-front .but .int-quit:hover
+.game-front .but  .int-quit button:hover
 {
     cursor: pointer;
-    border-color: yellow;
-    color:yellow;
+    background-color: rgb(208, 208, 208);
+    color: rgb(0, 0, 0);
+    border-color: white;
 }

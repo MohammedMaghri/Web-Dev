@@ -1,0 +1,116 @@
+body
+{
+    background-color: rgba(255, 255, 255, 0.205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 600px;
+}
+.all 
+{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgb(87, 87, 87);
+    background-color: rgba(255, 255, 255, 0.984);
+    width:auto;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.all .np
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.all .np input
+{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    border:none;
+    display: flex;
+    outline: none;
+    padding: 10px
+}
+.all .np input::placeholder
+{
+    color:  rgb(37, 182, 255);
+}
+.all .Buttons
+{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.all .Buttons .s
+{
+    color: rgb(0, 160, 209);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    border: none;
+    border-style: solid ;
+    border-color: rgb(0, 160, 209);
+    background-color: transparent;
+    transition: 0.5s;
+}
+.all .Buttons .s:hover
+{
+    cursor: pointer;
+    background-color:  rgb(163, 234, 255);
+    border: none;
+    color: white;
+}
+
+.all .Buttons .f
+{
+    color: rgb(0, 160, 209);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    border: none;
+    border-style: solid ;
+    border-color: rgb(0, 160, 209);
+    background-color: transparent;
+    transition: 0.5s;
+}
+.all .Buttons .f:hover
+{
+    cursor: pointer;
+    background-color:  rgb(163, 234, 255);
+    border: none;
+    color: white;
+}
+.all .boxms ul
+{
+    color: black;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.all .boxms
+{
+    margin-top: 5px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: rgb(0, 122, 149);
+    padding: 10px;
+    border-width: 3px;
+    overflow: auto;
+}
+.all .boxms li
+{
+    font-weight: bold;
+    color: rgb(132, 132, 132);
+}
