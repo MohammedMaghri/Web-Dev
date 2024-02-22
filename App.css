@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Bad+Script&family=Bahianita&family=Bebas+Neue&family=Courgette&family=Kode+Mono:wght@400..700&family=Micro+5&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Riot&family=Protest+Strike&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kdam+Thmor+Pro&family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kdam+Thmor+Pro&family=Kode+Mono:wght@400..700&family=Teko:wght@300..700&display=swap');
+
+body
+{
+  background-color: rgba(109, 1, 119, 0.477);
+}
+
+.app 
+{
+  width: 100%;
+  height: 100%;
+}
+
+.th
+{ 
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.514);
+  border-color: rgba(0, 0, 0, 0.191);
+  width : 40%;
+  height: 100vh;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.th .user 
+{
+  border-radius: 120px;
+  background-color: rgba(210, 210, 210, 0.234);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.483);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  width: 30%;
+  height: 20%;
+}
+.nm ul
+{
+  margin: 0px;
+  padding: 0px;
+  transition: 0.5s;
+
+}
+.nm 
+{
+  color:  rgb(255, 28, 247);
+  font-family: "Teko", sans-serif;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nm :hover 
+{
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.th .user img
+{
+  width: 30%;
+}
+.app {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+}
+
+.app .oth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  background-color: rgb(251, 27, 158);
+  color: white;
+  flex: auto;
+  background-image: url('./dvn9.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-attachment: fixed;
+}
+.app .oth  button{
+  margin: 0px;
+}
+
+.text
+{
+  margin-top: 20px;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.app .oth .logs button
+{
+  font-family: "Kode Mono", monospace;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: transparent;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 0.4s;
+}
+.app .oth  button:hover
+{
+  box-shadow: 0px 1px 10px white;
+  cursor: pointer;
+  background-color: white;
+  color:  rgb(255, 28, 247);
+}
+
+.app .oth .logs
+{
+  display: flex;
+  justify-content: last baseline;
+  gap: 100px;
+  padding: 20px;
+  display: flex;  
+  justify-content: space-evenly;
+}
+.icon 
+{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(164, 164, 164);
+  transition: 0.5s;
+}
+.icon:hover 
+{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.th .for-every 
+{
+
+  width: 80%;
+  height: 20%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.th .for-every input::placeholder
+{
+  color: rgb(255, 23, 232);
+}
+
+.th .for-every input
+{
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  border-style: solid;
+  border-color: rgb(255, 28, 247);
+  border-width: 2px;
+  border-radius: 20px;
+  width: 80%;
+  height: 25%;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.th .but button
+{
+  background-color: rgb(255, 28, 247);
+  border: none;
+  color: white;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  font-size: large;
+  padding-left: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 120px;
+  transition: 0.5s;
+}
+.th .but button:hover
+{
+  cursor: pointer;
+  background-color: rgba(255, 28, 247, 0.698);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.309);
+}
+
+.th .but 
+{
+  
+  margin-bottom: 20px;
+}
