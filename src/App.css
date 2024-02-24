@@ -1,24 +1,256 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Rajdhani:wght@300;400;500;600;700&family=Smooch+Sans:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Smooch+Sans:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Smooch+Sans:wght@100..900&family=Space+Grotesk:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 @keyframes changecolor {
   0% {color:rgb(255, 47, 82);}
   50% {color:rgb(252, 31, 68);}
   100% {color:rgba(250, 31, 67, 0.516);}
 }
-
-.first-sec
+.for-lower
 {
-  background-color: rgb(230, 230, 230);
+  /* height: 20vh; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.inner-text p 
+{
+  margin: 0px;
+  padding: 0px;
+}
+.lernm
+{
+  cursor: pointer;
+  transition: 0.5s;
+}
+.lernm:hover
+{
+  background-color: rgba(0, 0, 0, 0.064);
+
+}
+
+.f-btt
+{
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.save-ur button
+{
+  width: 50%;
+  border: none;
+  background:transparent;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.227);
+}
+
+.save-ur
+{
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.52);
+  font-size: small;
+  width: 80%;
+  font-family: "Titillium Web", sans-serif;
+}
+.inner-text h2
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.inner-text
+{
+  gap: 30px;
+  padding: 10px;
+  font-family: "Anta", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 45%;
+}
+
+.inner-div
+{
+  padding: 0px;
+  width: 45%;
+}
+
+.inner-image
+{
+  
+  padding: 0px;
+  margin: 0px;
   width: 100%;
 }
 
-.container 
+.jtext
 {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Anta", sans-serif;
+  color: rgb(251, 35, 110);
+}
+.suggest
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:15vh;
+  width: 80%;
+}
+.txt-in p
+{
+  margin: 0px;
+  padding: 0px;
+}
+.txt-in 
+{
+  font-family: "Rajdhani", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.txt-in 
+{
+  
+  font-size: 100%;
+  margin-top: 5px;
+}
+
+.features
+{
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.194);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 20%;
+  background-color: white;
+}
+
+.unde
+{
+  gap: 20px;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(253, 45, 80, 0.066);;
+}
+.Stor
+{
+  cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
+  height: 5vh;
+  width: 50%;
+  color:  rgb(255, 255, 255);
+  background-color:  rgb(252, 31, 68);
   border-style: solid;
-  border-color: black;
+  border-color: rgb(252, 31, 68);;
+  border-width: 1px;
+  transition: 0.5s  ;
+}
+.Stor:hover
+{
+  background-color: rgba(252, 31, 68, 0.769);
+}
+
+.for_bott
+{
+  height: 10vh;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px;
+}
+
+.txt 
+{
+  font-family: "Anta", sans-serif;
+}
+
+.ttx 
+{
+  font-family: "Rajdhani", sans-serif;
+}
+.Mark
+{
+  margin-top: 10px;
+  font-size:85%;
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.two-ones
+{
+  display: flex;
+
+}
+
+.bntext
+{
+  line-height: 29px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+}
+.bndetail
+{
+  font-size: 50%;
+  color: rgba(0, 0, 0, 0.657);
+}
+
+.fir
+{
+  width: 50%;
+}
+.first-sec
+{
+  margin: 0px;
+  padding: 0px;
+  padding: 10px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+  width: 100%;
+}
+.first-sec p 
+{
+  margin: 0px;
+  padding: 0px;
+}
+.container 
+{
+  flex-direction: column;
+  padding-inline-end: 10%;
+  padding-inline-start: 10%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  /* border-style: solid;
+  border-color: black; */
 }
 .txt
 {
@@ -26,7 +258,37 @@
   padding: 0px;
   font-weight: 700;
   line-height: 58px;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.benif 
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.other-pag
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+}
+
+.other-pag img
+{
+  margin-bottom: 10px;
+  width: 60vh;
+}
+
+.benif p
+{
+  margin: 0px;
+  padding: 0px;
 }
 
 .log {
@@ -43,7 +305,7 @@
 {
   display: flex;
   flex-direction: column;
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: 100vh;
 }
@@ -51,7 +313,6 @@
 .nav_bar 
 {
   padding: 14px 32px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -66,6 +327,10 @@
   display: flex;
   align-items: center;
 }
+.Mark img
+{
+  width: 4%;
+}
 
 .right-s ul
 {
@@ -73,6 +338,12 @@
   padding: 0px;
 }
 
+.for-img
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .clik 
 {
   cursor: pointer;
@@ -89,11 +360,27 @@
   transition: 0.5s;
 }
 
+.benifits
+{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+
 .clik ul:hover
 {
   color: black;
 }
-
+.sep 
+{
+  width: 0px;
+  height: 50%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgba(0, 0, 0, 0.24);
+}
 .right-s
 {
   display: flex;
